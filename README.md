@@ -2,15 +2,13 @@ Modern ve verimli bir İnsan Kaynakları Yönetim Sistemi, .NET Core, MVC ve ASP
 
 
 Örnek Kullanıcı Hikayesi:
-
-Bir İK yöneticisi olarak, çalışanların izin taleplerini verimli bir şekilde onaylayabilmek veya reddedebilmek için görüntülemek istiyorum.
+İnsan Kaynakları yöneticisi olarak, çalışanların izin taleplerini verimli bir şekilde onaylayabilmek veya reddedebilmek için görüntülemek istiyorum.
 
 Kabul Kriterleri:
-
-İzin talepleri çalışan bazında listelenmelidir
-Her talep tarih, tür ve durum içermelidir
-Yönetici talepleri onaylayabilmeli veya reddedebilmelidir
-Durum, işlemden hemen sonra güncellenmelidir
+- İzin talepleri çalışan bazında listelenmelidir.
+- Her talep tarih, tür ve durum içermelidir.
+- Yönetici talepleri onaylayabilmeli veya reddedebilmelidir.
+- İşlemden sonra durum anında güncellenmelidir.
 
 
 
