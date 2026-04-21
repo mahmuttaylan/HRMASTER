@@ -1,28 +1,30 @@
-Modern ve verimli bir İnsan Kaynakları Yönetim Sistemi, .NET Core, MVC ve ASP.NET Web API ile geliştirilmiş Onion Architecture mimarisine sahip bir uygulamadır. Uygulama, backend tarafında JWT token kullanarak kimlik doğrulama ve yetkilendirme sağlamaktadır. Ön tarafta ise MVC kullanılarak kullanıcı arayüzü oluşturulmuştur.
+# HRMASTER - Human Resources Management System
 
+## 📌 Project Overview
+HRMASTER is a Human Resources Management System designed to manage employee-related processes such as leave requests and approvals.
 
-Örnek Kullanıcı Hikayesi:
-İnsan Kaynakları yöneticisi olarak, çalışanların izin taleplerini verimli bir şekilde onaylayabilmek veya reddedebilmek için görüntülemek istiyorum.
+The project focuses on analyzing business requirements and translating them into structured system workflows.
 
-Kabul Kriterleri:
-- İzin talepleri çalışan bazında listelenmelidir.
-- Her talep tarih, tür ve durum içermelidir.
-- Yönetici talepleri onaylayabilmeli veya reddedebilmelidir.
-- İşlemden sonra durum anında güncellenmelidir.
+## 🎯 Purpose
+The goal of this project is to model real-world HR processes and create a system that supports efficient decision-making and process management.
 
+## 🧠 Business Perspective
+- Analyzed business requirements for HR processes
+- Defined user roles and responsibilities
+- Modeled workflows for leave request and approval processes
+- Translated user needs into system functionalities
 
+## ⚙️ Technical Overview
+- ASP.NET Core MVC & Web API
+- Entity Framework Core
+- SQL Server
+- Onion Architecture
 
-Kullanılan Teknolojiler
-Geliştirme Ortamı: Ms Visual Studio 2022
+## 🔐 Key Features
+- User authentication and authorization
+- Role-based access (Admin / Employee)
+- Leave request management
+- Approval / rejection workflows
 
-Kod Altyapısı: C#, MVC , Asp.Net Web API (RestFul API)
-
-Mimari Tasarım: Onion Architecture
-
-Veri Tabanı: MS SQL Server
-
-Veri Erişim Teknolojisi: Entity Framework CORE
-
-Kullanılan Kütüphaneler: JwtBearer,Azure.Storage.Blobs,ImageSharp,Identity,Automapper,Fluent Validation,Mailkit,Sweetalert2,MVC,Jwt-decode
-
-Versiyon Kontrol Sistemi: Git
+## 🚀 Outcome
+This project demonstrates the ability to bridge business needs with technical implementation and build structured, process-oriented systems.
